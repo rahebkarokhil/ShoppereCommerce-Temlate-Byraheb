@@ -1,4 +1,4 @@
-import { testimonials } from "./Testimonials";
+import { testimonials } from "./testimonials.js";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";

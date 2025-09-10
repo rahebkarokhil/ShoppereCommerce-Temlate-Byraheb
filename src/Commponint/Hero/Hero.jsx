@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className=" mt-0 mb-0     bg-cover bg-no-repeat bg-[url('../public/Hero/Hero-bg.svg')] px-11">
+    <div className=" mt-0 mb-0     bg-cover bg-no-repeat bg-[url('/Hero/Hero-bg.svg')] px-11">
       <div className=" grid  grid-cols-1 gap-9 justify-center md:px-14  md:grid-cols-2 lg:items-center lg:justify-between  ">
         <div className="pt-10">
           <h3 className="text-blue-600 text-xl font-semibold">
@@ -22,7 +22,7 @@ function Hero() {
           </button>
         </div>
         <div className="flex justify-center py-20">
-          <img className="  " src="./public/Hero/Hero.jpg" alt="" />
+          <img className="  " src="/Hero/Hero.jpg" alt="" />
         </div>
       </div>
     </div>

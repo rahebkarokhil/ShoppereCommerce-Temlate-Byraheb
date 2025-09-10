@@ -1,4 +1,4 @@
-// foooter.js
+
 export const foter = [
   {
     title: "Top Categories",

@@ -1,5 +1,5 @@
 import React from "react";
-import { foter } from "./Footer";
+import { foter } from "./footer.js";
 import { TfiLayoutLineSolid } from "react-icons/tfi";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";

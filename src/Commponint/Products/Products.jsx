@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import { TbStarFilled } from "react-icons/tb";
 import { FaRegStar } from "react-icons/fa";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
-import { lastcard } from "./data";
+import { lastcard } from "./data.js";
 import { useRef, useEffect, useState } from "react";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import { IoIosArrowRoundForward } from "react-icons/io";

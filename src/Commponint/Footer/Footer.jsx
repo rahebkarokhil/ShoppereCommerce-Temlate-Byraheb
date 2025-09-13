@@ -12,7 +12,7 @@ function Footer() {
       <div className="bg-[#111928]  relative lg:h-[500px] justify-start gap-20   px-5 md:justify-center md:items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:px-36">
         <img
           className="absolute right-0 top-0  mix-blend-screen"
-          src="footer/imgi_50_default.jpeg"
+          src="/footer/imgi_50_default.jpeg"
           alt=""
         />
         <div className="flex flex-col gap-14 mt-14">
@@ -20,7 +20,7 @@ function Footer() {
             <img src="logo/whitelogo.svg" alt="" />
             <img
               className=" absolute right-3 top-2 "
-              src="./public/Articales/artical.svg"
+              src="/Articales/artical.svg"
               alt=""
             />
           </div>
@@ -76,7 +76,7 @@ function Footer() {
         </div>
         <img
           className="absolute left-0-0 bottom-0  mix-blend-screen"
-          src="footer/imgi_48_default.jpeg"
+          src="/footer/imgi_48_default.jpeg"
           alt=""
         />
       </div>
@@ -87,7 +87,7 @@ function Footer() {
         </div>
 
         <div>
-          <img src="../public/footer/footer2.svg" alt="" />
+          <img src="/footer/footer2.svg" alt="" />
         </div>
         <div>
           <div className="flex gap-2 ">

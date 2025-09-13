@@ -16,7 +16,7 @@ function Articles() {
           </p>
         </div>
         <div>
-          <img className='w-[300px] relative'  src="../public/Articles/pattren.svg" alt="" />
+          <img className='w-[300px] relative'  src="/Articles/pattren.svg" alt="" />
         </div>  
       </div>
 
@@ -45,7 +45,7 @@ function Articles() {
           <div className="flex justify-end">
             <img
               className="w-10 text "
-              src="./public/Articales/artical.svg"
+              src="/Articales/artical.svg"
               alt=""
             />
           </div>
@@ -71,7 +71,7 @@ function Articles() {
           <div className=" mt-9">
             <img
               className="w-10 h-10 text "
-              src="./public/Articales/artical.svg"
+              src="/public/Articales/artical.svg"
               alt=""
             />
           </div>

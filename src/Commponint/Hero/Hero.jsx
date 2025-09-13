@@ -1,10 +1,16 @@
 import React from 'react'
+ import bghero from "../../assets/Hero/hero-bg.jpg";
+ import hero from "../../assets/Hero/Hero.jpg";
 
 function Hero() {
   return (
-    <div className=" mt-0 mb-0     bg-cover bg-no-repeat bg-[url('/Hero/Hero-bg.svg')] px-11">
+    <div
+      className=" mt-0 mb-0   bg-repeat-x  bg-[600px]" 
+      style={{ backgroundImage: `url(${bghero})` }}
+      
+    >
       <div className=" grid  grid-cols-1 gap-9 justify-center md:px-14  md:grid-cols-2 lg:items-center lg:justify-between  ">
-        <div className="pt-10">
+        <div className="pt-10"> 
           <h3 className="text-blue-600 text-xl font-semibold">
             Start From $299
           </h3>
@@ -22,7 +28,7 @@ function Hero() {
           </button>
         </div>
         <div className="flex justify-center py-20">
-          <img className="  " src="/Hero/Hero.jpg" alt="" />
+          <img className="  " src={hero} alt="" />
         </div>
       </div>
     </div>

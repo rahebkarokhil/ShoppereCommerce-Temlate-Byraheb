@@ -13,25 +13,8 @@ function Mobile() {
     setSubDropdown(false);
   };
 
-  // Close dropdown when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (e) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
-        closeAll();
-      }
-    };
-
-    if (dropdown || subDropdown) {
-      document.addEventListener("mousedown", handleClickOutside);
-    }
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, [dropdown, subDropdown]);
-
   return (
-    <div className="z-40 fixed top-14 right-0 w-64 h-screen bg-white overflow-y-auto">
+    <div className="z-40 absolute right-0 w-64 h-auto  py-5 px-3 shadow-lg rounded-lg bg-white overflow-y-auto">
       <ul className="flex flex-col gap-4 px-2 text-gray-700">
         <li ref={dropdownRef}>
           <button
@@ -90,7 +73,7 @@ function Mobile() {
           )}
         </li>
 
-        {/* Other menu items */}
+      
         <li className="cursor-pointer hover:text-blue-500" onClick={closeAll}>
           Home
         </li>

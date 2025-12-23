@@ -132,9 +132,9 @@ function Navbar() {
           </div>
         </div>
 
-        <span className="lg:hidden">
+        <span className="lg:hidden ">
           {!Menu ? (
-            <MdOutlineMenu className="text-3xl" onClick={() => setMenu(true)} />
+            <MdOutlineMenu className="text-3xl " onClick={() => setMenu(true)} />
           ) : (
             <MdClose className="text-3xl" onClick={() => setMenu(false)} />
           )}
